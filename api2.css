@@ -1,0 +1,36 @@
+.articolo h3{
+    color:White;
+    text-align: center;
+    background-color: rgba(195, 20, 55, 0.381);
+}
+
+h4{
+    color:black;
+    font-size: 2em;
+    text-align: center;
+    border-style:groove;
+    border-width:4px;
+    border-color: black;
+
+}
+
+.articolo{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    margin: 0px 15px;
+    padding: 5px 5px;
+    border-color:crimson;
+    border-style: groove;
+}
+
+.articoli{    
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        margin: 0px 15px;
+        padding: 5px 5px;
+        
+}
